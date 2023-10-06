@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background:url(https://media.istockphoto.com/id/485536628/photo/beautiful-living-room-detail-with-sunrise-view.jpg?s=612x612&w=0&k=20&c=oaBgxEqfJjxUBE11_bIMYG7qvN_55t3pj6yi-E77SOU=);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    /* background-color: aliceblue; */
+}
+.lest{
+    width: 100vw;
+    height: 20vh;
+    /* background-color: aqua; */
+}
+.left{
+    overflow: hidden;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    /* background-color: blue; */
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+    /* background-color: brown; */
+}
+.navber{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px 30px;
+    cursor: pointer;
+    color: #fff;
+}
+.navber h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 5px;
+    font-weight: 600;
+}
+.navber i{
+    font-weight: 900;
+}
+.centertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.centertext h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.centertext h1 span{
+    color: #0fe;
+}
+.centertext p{
+    margin: 5px 0px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .6;
+    color: #fff;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(231, 224, 224);
+    box-shadow: 0 0 20px black;
+}
+.right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgb(26, 219, 123); */
+}
+.right .heading{
+    width: 420px;
+    position: relative;
+    margin: 20px 30px;
+    /* background-color: coral; */
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.heading .input-box{
+    width: 100%;
+    /* background-color: dodgerblue; */
+    margin: 10px 20px;
+    text-align: center;
+    
+}
+.heading .input-box input{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(46, 41, 41);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.lest{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   padding: 10px;
+}
+.lest i{
+    color: #fff;
+    margin: 0px 5px;
+}
+.lest p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.icon{
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+ 
